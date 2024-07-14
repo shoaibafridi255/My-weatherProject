@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+.mainContainer{
+  border: 2px solid rgb(106, 106, 245);
+  border-radius: 8px;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: rgb(106, 106, 245);
+}
+
+.btn:hover{
+  background-color: rgb(106, 106, 245);
+  border-color: rgb(106, 106, 245); ;
+  color: #fff;
+
+}
+.temp {
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+.DisplayTemp {
+  border-bottom: 0.5px solid rgb(219, 213, 213);
+}
+
+.rightSection {
+  background-color: rgb(229, 237, 237);
+  position: relative;
+  border-radius: 0px 8px 8px 0px;
+}
+.card {
+  width: 15rem;
+  height: 150px;
+  border-radius: 10px;
+  background-color: rgb(106, 106, 245);
+  color: white;
+}
+.card:last-child {
+  text-align: center;
+}
