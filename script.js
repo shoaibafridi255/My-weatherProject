@@ -15,7 +15,7 @@ btn.addEventListener("click", () => {
       return displayAlert.show();
   }
   axios
-    .get(`http://api.weatherapi.com/v1/current.json?key=79364771e780491bad7105137243006&q=${input}`)
+    .get(`https://api.weatherapi.com/v1/current.json?key=79364771e780491bad7105137243006&q=${input}`)
     .then(function (response) {
       console.log(response);
       const name = response.data.location.name;
